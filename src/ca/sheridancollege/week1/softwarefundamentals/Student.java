@@ -17,7 +17,7 @@ public class Student {
      */
     private String name;
     private int ID;
-
+private String Program;
     public Student(String givenName, int givenID)
     {
         name=givenName;
@@ -26,6 +26,12 @@ public class Student {
     /**
      * @return the name
      */
+    public String getProgram(){
+    return Program;
+    }
+    public void setProgram(String ProgramName){
+    this.Program= ProgramName;
+    }
     public String getName() {
         return name;
     }
