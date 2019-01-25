@@ -6,10 +6,10 @@
 package ca.sheridancollege.week1.softwarefundamentals;
 
 /**
- *date :2019 1 26 !!
+ *date :2019 1 26 !!!!
  * @author mehta
  */
-public class Student {
+public class Student extends NewClass {
 
     /**Model class student
      * Having name, ID 
@@ -56,7 +56,11 @@ private String Program;
     public void setID(int givenID) {
         ID = givenID;
     }
-    
-    
+    public int getmaxCourse(){
+        return this.maxCourse;
+    }
+    public void setmaxCourse(int r){
+    this.maxCourse=r;
+    }
     
 }
